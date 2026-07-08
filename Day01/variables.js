@@ -1,4 +1,6 @@
-//How to create Variables
+//How to Create & Use Variables
+
+
 
 //let : new way 
 let name="Sishu";
