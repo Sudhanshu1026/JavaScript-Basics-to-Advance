@@ -4,8 +4,6 @@
 
 
 
-
-
 //Number
 let a=10; 
 let b=20.37;
@@ -69,13 +67,6 @@ console.log(arr);
 console.log(typeof arr);
 
 
-
-
-
-
-
-
-
 // object
 //To store : Sishu 176 22 Gen -> use object
 
@@ -89,9 +80,6 @@ let user={
 console.log(user);
 console.log(user.name);
 console.log(typeof user);
-
-
-
 
 
 
@@ -115,8 +103,11 @@ console.log(typeof greet,typeof ans);
 
 
 
-/* Primitive data types are Immutable:passed by value 
- Non-Primitive data type are Mutable:passed by reference*/
+
+
+
+/*  Primitive data types are Immutable:passed by value 
+ Non-Primitive data type are Mutable:passed by reference.  */
 
  let x=10;
  let y=x;
