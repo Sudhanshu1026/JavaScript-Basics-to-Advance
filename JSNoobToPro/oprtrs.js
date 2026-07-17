@@ -12,10 +12,6 @@ console.log(5**3); //n^m : 5^3=125
 
 
 
-
-
-
-
 //Assignment Operators
 let x=20;
 let y=30;
@@ -27,8 +23,6 @@ x=x*y;
 x+=y;
 x-=y;
 x*=y;
-
-
 
 
 
@@ -48,7 +42,6 @@ console.log(a===b);  //Strictly
 let c="10";
 console.log(a==c);  //Loosely 
 console.log(a===c);  //Strictly
-
 
 
 
@@ -78,3 +71,25 @@ console.log(Number(true));
 console.log(Number(false));
 console.log(Number(null));
 console.log(Number(undefined));
+
+
+//While comparison : JS Treats (null ->number 0) , (undifined -> NaN)
+console.log(0 >= null);
+console.log(0 <= null);
+console.log(0 == null);
+console.log(0 > null);
+console.log(0 < null);
+
+console.log(null>=undefined);
+console.log(undefined >= 0);
+
+
+console.log("Sishu">"rishu");
+
+console.log(10>"10");
+console.log(10>="10");
+
+console.log(10<true);
+
+/* Conclusn:If we have to compare two data of different types eg: number & Boolean -> first they will 
+converted into number then comparison happens */
