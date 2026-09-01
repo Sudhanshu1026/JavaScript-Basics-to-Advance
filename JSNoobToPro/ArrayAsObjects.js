@@ -67,10 +67,9 @@ console.log(arr);
 
 const arr = [10,30,50,90,11];
 arr[2] = 30;
-
-
-
 console.log(arr);
+
+
 
 
 const arr = [10,30,50,90,11];
@@ -113,21 +112,20 @@ console.log(arr);
 
 const arr = [10,40,31,71,5,11];
 
-arr.sort((a,b)=> a-b);
 // Ascending order
-
-arr.sort((a,b)=> b-a);
-
-40,10
-a = 10
-b = 40
-10,31, 40
-a = 10
-b = 31
-
-// -ve : pehle a aayega fr aayega
+arr.sort((a,b)=> a-b);
+// -ve : pehle a aayega fr b aayega
 // +ve: b aayega fr a aayge
 
+// Descending order
+arr.sort((a,b)=> b-a);
+
+// 40,10
+// a = 10
+// b = 40
+// 10,31, 40
+// a = 10
+// b = 31
 console.log(arr);
 
 
